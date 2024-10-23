@@ -1,0 +1,140 @@
+
+body {
+    
+    background-color: #000;
+}
+
+/*body {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Tudo no body ficará 80% opaco 
+}*/
+
+
+h1, h2 {
+    color: #ff0000; /* Vermelho */
+    font-family: 'terror';
+    font-weight: bold;
+    font-size: 100px;
+}
+h3 {
+    color: #ff0000; /* Vermelho */
+    font-family: 'terrorr';
+    font-weight: normal;
+    font-size: 72px;
+}
+h5 {
+ color: #ff0000; /* Vermelho */
+    font-family: 'terrorr';
+    font-weight: normal;
+    font-size: 72px;
+    
+}
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #030303;
+    color: white;
+    padding: 10px 0;
+    font-family: OCR A Std, monospace;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+.navbar ul li a:hover {
+    background-color: #000;
+    border-radius: 4px;
+}
+@font-face {
+    font-family: 'terror';
+    src: url('zombie_brush/zombie.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'terrorr';
+    src: url('punk_typewriter/punk.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.list-group-item {
+    background-color: #000;
+    border: 1px solid #ff0000;
+}
+
+footer {
+    background-color: #000;
+    color: #ffffff;
+}
+.img-retangular {
+    width: 150px; /* Largura do retângulo */
+    height: 300px; /* Altura do retângulo */
+    border-radius: 20px; /* Borda levemente arredondada */
+    object-fit: fill; /* Garante que a imagem preencha o retângulo sem distorção */
+    
+}
+.img-left {
+    float: left;
+    margin-right: 30px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-right {
+    float: right;
+    margin-left: 30px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+.content {
+    overflow: hidden; /* Garante que o texto flua corretamente ao redor das imagens */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.texto-com-borda {
+   
+    
+}
+p {
+    font-size: large;
+    color: #fff;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 25px;
+    letter-spacing: 0.5px;
+
+}
+
+    img {
+            display: block;
+            margin: 0 auto; /* Margens automáticas para centralizar */
+            max-width: 100%;
+            height: auto;
+        }
